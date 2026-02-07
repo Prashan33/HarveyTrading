@@ -1,0 +1,30 @@
+/* Keep navbar height like Zerodha */
+.navbar-wrap {
+    height: 64px;
+  }
+  
+  /* Keep content width + clean padding */
+  .navbar-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  /* Logo sizing */
+  .navbar-logo {
+    height: 65px;
+    width: auto;
+  }
+  
+  /* Space between nav links */
+  .navbar-links .nav-link {
+    font-size: 14px;
+    color: #444 !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+  
+  /* Hover like Zerodha */
+  .navbar-links .nav-link:hover {
+    color: #387ed1 !important;
+  }
+  

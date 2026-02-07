@@ -1,0 +1,26 @@
+
+.awards-section {
+    padding: 100px 0 120px; 
+  }
+  
+
+  .awards-section h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+  
+  .awards-section p {
+    color: #555;
+    max-width: 520px;
+    margin-bottom: 24px;
+  }
+  
+  .awards-section ul {
+    padding-left: 18px;
+  }
+  
+  .awards-section li {
+    margin-bottom: 12px;
+  }
+  

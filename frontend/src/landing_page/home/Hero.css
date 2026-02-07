@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .hero-wrap {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 0 90px;
+    background: radial-gradient(circle at 75% 25%, rgba(255, 255, 255, 0.12), transparent 40%),
+      linear-gradient(135deg, #0b3fbf 0%, #0b57d0 45%, #0a2f9b 100%);
+  }
+  
+  /* center text block */
+  .hero-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    color: white;
+    font-weight: 700;
+    font-size: 68px;
+    margin: 0 0 14px;
+  }
+  
+  .hero-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto 26px;
+    max-width: 720px;
+  }
+  
+  .hero-btn {
+    background: #1f6bff;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  /* ✅ THIS is the correct full-width centered image area */
+  .hero-image-wrap {
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center; /* centers image */
+  }
+  
+  .hero-image {
+    width: 96%;              /* almost full screen */
+    max-width: 1500px;       /* bigger */
+    height: auto;
+    border-radius: 22px;
+    box-shadow: 0 35px 90px rgba(0, 0, 0, 0.35);
+  }
